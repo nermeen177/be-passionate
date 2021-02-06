@@ -1,0 +1,180 @@
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+  margin: 0;
+  padding:0;
+
+}
+.navbar-brand
+{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+li 
+{
+    font-size: 16px;
+    margin-left: 8px;
+    font-style: italic;
+    font-family: cursive
+}
+.navbar {
+    background-color: #333333;
+    height: 50px;
+    text-align: center;
+    top:0px;
+}
+.dark
+{
+    background-color: #333333;
+}
+.active
+{
+   background-color: #ECE5B6; 
+  font-color:black;
+  border-radius:5px;
+  display: inline;
+  
+}
+.nav-link:hover
+{
+    background-color:#127687;
+    border-radius: 5px;
+}
+.slide
+{
+  z-index: -9;
+  opacity: 0.9
+}
+img
+{ 
+  height: 600px;
+}
+.header
+{
+  position: absolute;
+  bottom: 60%;
+  left: 43%;
+
+  background-color: black;
+  opacity: 0.6;
+  z-index:-8;
+  display:none;
+  padding: 5px;
+
+}
+
+h2
+{
+  color: white
+}
+
+
+.footer
+{
+  background-color: black;
+
+}
+
+.pfooter
+{
+  margin-top: 20px;
+  display:inline;
+  color:#ECD872;
+}
+.column1
+{
+  margin-top: 25px
+}
+.awesome
+{
+  margin-left: 25px;
+  margin-right: 25px;
+  color:#ECD872
+}
+.fa-facebook:hover
+{
+   color:#15317E;
+}
+
+.hhr
+{
+  background-color:#ECD872
+}
+.bottom
+{
+  margin-left: 75px
+}
+.top
+{
+  margin-left: 120px
+}
+
+#welcome
+{
+  display:inline;
+  color:#ECD872;
+}
+.topics
+{
+  position: absolute;
+  bottom: 15%;
+  left: 39%;
+}
+
+
+
+      .divs{
+       border:5px dashed black;   
+        margin: auto; 
+        height:650px;
+        width: 100%;
+        
+        box-shadow: 8px 8px 10px black;
+        padding: 20px}
+        .inside
+        {
+          padding:  95px
+        }
+    #div1,#div3
+    {
+      background-color: #3A517D;
+    }
+    #div2,#div4
+    {
+      background-color: #A29D00;
+    }
+    p
+    {
+      color: white;
+      font-size: 20px;
+      line-height: 1.8;
+      direction: rtl;
+     text-align: right;
+    }
+    h1
+    {
+      color: white
+    }
+    .back
+    {
+    position:relative;
+    margin-top:10px;
+    margin-left: 100%
+
+    }
+.imgs
+{
+  display: inline;
+  width: 400px;
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  float: left;
+  margin-top: 0px;
+ margin-right: 130px
+}   
